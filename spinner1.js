@@ -16,13 +16,17 @@ setTimeout(() => {
 }, 700);
 
 setTimeout(() => {
+  process.stdout.write('\r|   ');
+}, 900);
+
+setTimeout(() => {
   process.stdout.write('\r-   ');
-}, 1000);
+}, 1100);
 
 setTimeout(() => {
   process.stdout.write('\r\\    ');
-}, 1200);
+}, 1300);
 
 setTimeout(() => {
   process.stdout.write('\r|   ');
-}, 1400);
+}, 1500);
